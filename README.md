@@ -6,7 +6,7 @@
 ![SpringBoot](https://img.shields.io/badge/Backend-SpringBoot-green)
 ![Gradle](https://img.shields.io/badge/Gradle-8-green)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![Status: Completed](https://img.shields.io/badge/Status-Completed-brightgreen)
 
 This repository contains exercises, homework assignments, and a simple full-stack project created as part of a module in the **Kodilla "Automated Tester" Java course**, focusing on **HTML, CSS and JS**.
 
