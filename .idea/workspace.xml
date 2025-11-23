@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b58428-cd0e-40b3-8897-55bc0a1f1cae" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/projekt_js/tasks_app_backend" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task_app_frontend" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projekt_js/tasks_app_backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/projekt_js/tasks_app_backend/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +13,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/projekt_js/tasks_app_backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="35bxJp57yy6LvSyZ2DOVD0Hmi8c" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -29,9 +30,10 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "git-widget-placeholder": "master",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Joanna/Desktop/Testowanie/Kurs/JavaScript"
+    "last_opened_file_path": "C:/Users/Joanna/Desktop/Testowanie/Kurs/Projekty/kodilla-html-css-js"
   }
 }]]></component>
   <component name="TaskManager">
