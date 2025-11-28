@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b58428-cd0e-40b3-8897-55bc0a1f1cae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,15 +28,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Karate.test.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Joanna/Desktop/Testowanie/Kurs/Projekty/kodilla-html-css-js"
+    "last_opened_file_path": "C:/Users/Joanna/Desktop/Testowanie/Kurs/Projekty/kodilla-html-css-js",
+    "settings.editor.selected.configurable": "io.karatelabs.intellij.settings.KarateSettingsConfigurable"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="test" type="KarateRunConfiguration" factoryName="KarateRunConfiguration" temporary="true">
+      <option name="karatePath" value="$PROJECT_DIR$/projekt_js/tasks_app_backend/src/test" />
+      <module name="JavaScript" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Karate.test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="54b58428-cd0e-40b3-8897-55bc0a1f1cae" name="Changes" comment="" />
@@ -45,5 +63,8 @@
       <updated>1763392502380</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/kodilla_html_css_js$test.ic" NAME="test Coverage Results" MODIFIED="1764349793527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
