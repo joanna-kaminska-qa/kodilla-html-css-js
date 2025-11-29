@@ -164,7 +164,7 @@ Focus on:
 
 ---
 
-### ✔ Trello Client/Facade Tests
+### Trello Client/Facade Tests
 Validate:
 
 - API communication layer
