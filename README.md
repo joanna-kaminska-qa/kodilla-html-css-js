@@ -25,7 +25,7 @@ The project was developed in **IntelliJ IDEA** as part of the learning path for 
 
 This module introduces frontend fundamentals and integrates them with a backend API.
 
-### ✔ Frontend (HTML / CSS / JavaScript)
+### Frontend (HTML / CSS / JavaScript)
 - webpage structure (HTML5)
 - layouts and styling (CSS3)
 - DOM manipulation
@@ -35,7 +35,7 @@ This module introduces frontend fundamentals and integrates them with a backend 
 - dynamically rendered content
 - interactive task application UI
 
-### ✔ Backend – Spring Boot
+### Backend – Spring Boot
 Project located in: `projekt_js/tasks_app_backend/`
 
 Backend provides:
@@ -47,7 +47,7 @@ Backend provides:
 - database access via Spring Data JPA
 - OpenAPI documentation (springdoc)
 
-### ✔ Homework
+### Homework
 Folder: `homework 12.3/`  
 Contains:
 - `index.html`
@@ -66,61 +66,38 @@ A standalone JS task demonstrating:
 kodilla-html-css-js/
 │
 ├── homework 12.3/
-│ index.html
-│ script.js
-│ style.css
+│   ├── index.html
+│   ├── script.js
+│   └── style.css
 │
 ├── projekt_js/
-│ └── tasks_app_backend/
-│ build.gradle
-│ settings.gradle
-│ gradlew / gradlew.bat
-│
-│ src/main/java/com/crud/tasks/
-│ TasksApplication.java
-│ config/CoreConfiguration.java
-│
-│ controller/
-│ TaskController.java
-│ TrelloController.java
-│ TaskNotFoundException.java
-│
-│ domain/
-│ Task.java
-│ TaskDto.java
-│ TrelloCardDto.java
-│ TrelloBoardDto.java
-│ ...
-│
-│ mapper/
-│ TaskMapper.java
-│ TrelloMapper.java
-│
-│ repository/
-│ TaskRepository.java
-│
-│ service/
-│ DbService.java
-│ TrelloService.java
-│
-│ trello/
-│ client/TrelloClient.java
-│ config/TrelloConfig.java
-│ facade/TrelloFacade.java
-│ validator/TrelloValidator.java
-│
-│ src/test/java/com/crud/tasks/
-│ TaskControllerTest.java
-│ TrelloClientTest.java
-│ TrelloFacadeTest.java
-│ TaskMapperTestSuite.java
-│ ...
+│   └── tasks_app_backend/
+│       ├── build.gradle
+│       ├── settings.gradle
+│       ├── gradlew / gradlew.bat
+│       ├── src/
+│       │   ├── main/java/com/crud/tasks/
+│       │   │   ├── TasksApplication.java
+│       │   │   ├── config/CoreConfiguration.java
+│       │   │   ├── controller/TaskController.java, TrelloController.java
+│       │   │   ├── domain/*.java
+│       │   │   ├── mapper/*.java
+│       │   │   ├── repository/TaskRepository.java
+│       │   │   ├── service/*.java
+│       │   │   └── trello/client, config, facade, validator/*.java
+│       │   └── resources/application.properties
+│       └── src/test/java/com/crud/tasks/
+│           ├── controller/*.java
+│           ├── facade/*.java
+│           ├── mapper/*.java
+│           ├── service/*.java
+│           └── trello/client/*.java
 │
 └── task_app_frontend/
-index.html
-script.js
-style.css
-jquery-3.2.1.min.js
+    ├── index.html
+    ├── script.js
+    ├── style.css
+    └── jquery-3.2.1.min.js
 ```
 
 ## Getting Started
@@ -153,45 +130,53 @@ Backend provides:
 ---
 
 ## Test Suites Overview
-✔ **Controller Tests**
 
+### Controller Tests
 Validate REST endpoints for:
-- task CRUD operations
+
+- Task CRUD operations
 - Trello controller integration
-- exception handling (TaskNotFoundException)
+- Exception handling (`TaskNotFoundException`)
 
-Files:
-- TaskControllerTest
-- TrelloControllerTest
+**Files:**
+- `TaskControllerTest`
+- `TrelloControllerTest`
 
-✔ **Mapper Tests**
-- Ensure DTO ↔ entity conversion:
-- TaskMapperTestSuite
-- TrelloMapperTestSuite
+---
 
-✔ **Service Layer Tests**
+### Mapper Tests
+Ensure DTO ↔ entity conversion:
 
+**Files:**
+- `TaskMapperTestSuite`
+- `TrelloMapperTestSuite`
+
+---
+
+### Service Layer Tests
 Focus on:
-- database operations
-- behaviors
-- service logic
 
-Files:
-- DbServiceTestSuite
+- Database operations
+- Service logic and behaviors
 
-✔ **Trello Client/Facade Tests**
+**Files:**
+- `DbServiceTestSuite`
 
+---
+
+### ✔ Trello Client/Facade Tests
 Validate:
-- API communication layer
-- filtering, validation and processing logic
 
-Files:
-- TrelloClientTest
-- TrelloFacadeTest
+- API communication layer
+- Filtering, validation, and processing logic
+
+**Files:**
+- `TrelloClientTest`
+- `TrelloFacadeTest`
 ---
 
 ## Running the Projects
-✅ Frontend (standalone)
+Frontend (standalone)
 
 Simply open:
 ```bash
@@ -203,7 +188,7 @@ or for homework:
 homework 12.3/index.html
 ```
 
-✅ Backend (Spring Boot)
+Backend (Spring Boot)
 
 Linux/macOS
 ```bash
@@ -254,6 +239,7 @@ GitHub: https://github.com/joanna-kaminska-qa
 
 ## Version History
 
+- **0.2** – Expanded test coverage & structural improvements (achieved >60% total test coverage)
 - **0.2** – README added, improved structure
 - **0.1** – Initial upload
 
