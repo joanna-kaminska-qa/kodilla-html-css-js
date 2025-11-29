@@ -239,7 +239,7 @@ GitHub: https://github.com/joanna-kaminska-qa
 
 ## Version History
 
-- **0.2** – Expanded test coverage & structural improvements (achieved >60% total test coverage)
+- **0.3** – Expanded test coverage & structural improvements (achieved >60% total test coverage)
 - **0.2** – README added, improved structure
 - **0.1** – Initial upload
 
